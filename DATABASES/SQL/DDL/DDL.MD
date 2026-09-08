@@ -60,9 +60,9 @@ Quando são criadas as tabelas, é possível especificar vários tipos de restri
 
 ## Lista de Comandos DDL
 
-| Comando | Descrição |
-|---|---|
-| CREATE | Serve para criar objetos |
-| ALTER | Serve para modificar estruturas |
-| DROP | Serve para deletar objetos |
-| TRUNCATE | Limar uma tabela por completo | 
+| Comando | Descrição | Exemplos |
+|---|---|---|
+| CREATE | Serve para criar objetos | [Exemplos de Uso](./CREATE/) |
+| ALTER | Serve para modificar estruturas | |
+| DROP | Serve para deletar objetos | |
+| TRUNCATE | Limar uma tabela por completo | |
