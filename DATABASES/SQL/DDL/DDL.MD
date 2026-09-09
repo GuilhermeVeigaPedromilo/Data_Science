@@ -1,5 +1,7 @@
 # DDL - Data Definition Language (Linguagem de Definição dos Dados)
 
+Os comandos DDL são usados para definir e modificar a estrutura do banco de dados, ou seja, permite realizar alterações nos objetos dentro do banco de dados.
+
 ## Tipos de Dados
 
 É a característica da coluna da tabela do banco de dados que determina o tipo de dado que pode ser armazenado.
@@ -63,6 +65,6 @@ Quando são criadas as tabelas, é possível especificar vários tipos de restri
 | Comando | Descrição | Exemplos |
 |---|---|---|
 | CREATE | Serve para criar objetos | [Exemplos de Uso](./CREATE/) |
-| ALTER | Serve para modificar estruturas | |
-| DROP | Serve para deletar objetos | |
-| TRUNCATE | Limar uma tabela por completo | |
+| ALTER | Serve para modificar estruturas | [Exemplos de Uso](./ALTER/) |
+| DROP | Serve para deletar objetos | [Exemplos de Uso](./DROP/) |
+| TRUNCATE | Limpar uma tabela por completo | - |
