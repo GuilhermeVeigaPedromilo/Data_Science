@@ -61,4 +61,5 @@ CREATE TABLE IF NOT EXISTS cpf_register (
 SELECT c.id_client, c.name_client, SUM(s.total_value) AS total_purchased 
     FROM client AS c INNER JOIN sales AS s
             ON c.id_client = s.id_client
-        GROUP BY c.id_client, c.name_client;
+        GROUP BY c.id_client, c.name_client
+        ORDER BY total_purchased;
