@@ -4,11 +4,10 @@ Os comandos DQL são responsáveis por realizar consultas de leitura dos dados. 
 
 ## Lista de Cláusulas:
 
-| Cláusula | Descrição |
-| --- | --- |
-| WHERE | Compara uma coluna com alguma condição |
-| ORDER BY | Ordena os dados baseado em uma coluna com alguma condição |
-| GROUP BY | Agrupa os dados baseado em uma condição |
-| HAVING | Filtra os dados que possui um valor |
-| JOIN | Usado para junção e conexão de dados de diferentes tabelas através dos atributos dela |
-
+| Cláusula | Descrição | Exemplos |
+| --- | --- | --- |
+| WHERE | Compara uma coluna com alguma condição | [Exemplos de Uso de WHERE](./CLAUSES/WHERE/) |
+| ORDER BY | Ordena os dados baseado em uma coluna com alguma condição | [Exemplos de Uso de ORDER BY](./CLAUSES/ORDER%20BY/) |
+| GROUP BY | Agrupa os dados baseado em uma condição | [Exemplos de Uso de Group By](./CLAUSES/GROUP%20BY/) |
+| HAVING | Filtra os dados que possui um valor | [Exemplos de Uso de HAVING](./CLAUSES/HAVING/) |
+| JOIN | Usado para junção e conexão de dados de diferentes tabelas através dos atributos dela | [Exemplosde Uso de JOINS](./JOINS/) |
